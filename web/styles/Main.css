@@ -1,0 +1,77 @@
+#heading {
+		position:fixed;
+		left:1%; 
+		top:2%; 
+		width:87%; 
+		height:150px;
+		text-align:center;
+		font-size:large;
+		background-color:black;
+		color:white;
+}
+#userspec {
+		position:fixed;
+		left:1%; 
+		top:185px; 
+		width:97%; 
+		height:50px;
+		text-align:center; 
+		background-color:black;
+		font-size:large;
+		color:white;
+}
+#navigation {
+		position:fixed;
+		left:1%;
+		top:255px; 
+		width:10%; 
+		height:56%;
+		background-color:black;
+		text-align:left;
+		color:white;
+}
+#content {
+		position:fixed;
+		left:12.5%;
+		top:255px;
+		width:86%; 
+		height:56%; 
+		background-color:black;
+		color:white;
+                overflow:scroll;
+}
+#footer {
+		position:fixed;
+		left:1%; 
+		top:91%; 
+		width:97.5%; 
+		height:7%; 
+		background-color:black;
+		font-size:large;
+		color:white;
+}
+#login {
+		position:fixed;
+		left:88%;
+		top:2%; 
+		width:10%; 
+		height:150px;
+		text-align:right;
+		font-size:small; 
+		background-color:black;
+		color:white;
+}
+table, td, th {
+	border:1px solid white;
+}
+th{
+	background-color: white;
+	color:black;
+}
+
+.columns {
+    -webkit-column-count: 10%; /* Chrome, Safari, Opera */
+    -moz-column-count: 10%; /* Firefox */
+    column-count: 2;
+}
+
